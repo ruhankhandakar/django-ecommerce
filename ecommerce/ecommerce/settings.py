@@ -43,7 +43,7 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'api',
     'api.category',
-    'api.product',
+    'api.product'
 ]
 
 MIDDLEWARE = [
@@ -145,3 +145,5 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.TokenAuthentication',
     ]
 }
+
+# AUTH_USER_MODEL = 'user.CustomUser'
